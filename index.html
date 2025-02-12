@@ -1,43 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your GitHub Profile</title>
+    <link rel="stylesheet" href="css/styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        header {
+            position: relative;
         }
-        .social-links {
-            margin: 20px 0;
-        }
-        .social-links a {
-            margin-right: 10px;
-        }
-        #youtube-videos, #blog-posts {
-            margin: 20px 0;
+        .profile-photo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Personal Website!</h1>
-
-    <div class="social-links">
-        <a href="https://www.facebook.com/myprofile" target="_blank">Facebook</a>
-        <a href="https://www.twitter.com/myprofile" target="_blank">Twitter</a>
-        <a href="https://www.linkedin.com/in/myprofile" target="_blank">LinkedIn</a>
-    </div>
-
-    <div id="youtube-videos">
-        <h2>My Recent YouTube Videos3</h2>
-        <!-- YouTube videos will be added here -->
-    </div>
-
-    <div id="blog-posts">
-        <h2>My Recent Blog Posts3</h2>
-        <!-- Blog posts will be added here -->
-    </div>
-
-    <script>
-        // You can add your JavaScript code here
-    </script>
+    <header>
+        <img src="images/profile-photo.jpg" alt="Profile Photo" class="profile-photo">
+        <h1>Welcome to My Profile</h1>
+        <p>I'm a software developer with 14 years of experience in Oracle SQL, PL/SQL, Java, Spring Boot, HTML, and JavaScript.</p>
+    </header>
+    
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>I am Senior Software Engineer with 14 years of experience in the design, development, testing and maintenance of software systems. I am proficient in various platforms, languages, and embedded systems, and is adept at developing and implementing software solutions to meet business requirements. Yogesh is skilled in developing and maintaining web applications using primary technologies as SQL, PL/SQL along with technologies as Java, Spring, SpringBoot, JS framework such as ReactJS and related technologies.</p>
+    </section>
+    <section id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Oracle SQL</li>
+            <li>PL/SQL</li>
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>Spring Framework</li>
+            <li>JavaScript</li>
+            <li>Performance Tuning</li>
+            <li>DB Design</li>
+            <li>Data Modelling</li>
+            <li>Liquibase</li>
+            <li>MQ</li>
+            <li>RestAPI</li>
+            <li>Microservices</li>
+            <li>MySQL</li>
+            <li>Postgres</li>
+            <li>Git</li>
+            <li>Junit</li>
+            <li>TestNG</li>
+            <li>Jenkins</li>
+            <li>Docker</li>
+            <li>SoapUI</li>
+            <li>Postman</li>
+            <li>Jira</li>
+            <li>Salesforce</li>
+            <li>Oracle Report</li>
+            <li>Jasper Report</li>
+            <li>Eclipse</li>
+            <li>VSCode</li>
+            <li>Generative AI</li>
+            <li>Cloud</li>
+        </ul>
+    </section>
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <h3>Tech Mahindra</h3>
+        <p>11/2023 – Present, SENIOR SOFTWARE ENGINEER</p>
+        <ul>
+            <li>Role: Finastra Cash Management Team</li>
+            <li>Involved in product support, issue fixing for various modules using Oracle PL/SQL, Java, Spring framework and ExtJs framework technologies.</li>
+            <li>Involved in delivery, UAT and production deployment of new enhancements.</li>
+            <li>Handling production issues along with analysis of cause and solution for the same</li>
+            <li>Design, development, and defect fixing using agile approach.</li>
+            <li>Identifying and resolving setup-related issues</li>
+            <li>Resolving performance related issues.</li>
+            <li>Analyzing systems to find the root cause and providing root cause analysis. Fixing using change management</li>
+        </ul>
+        <h3>Finastra India Pvt Ltd.</h3>
+        <p>08/2016 – 10/2023, SENIOR SOFTWARE DEVELOPER</p>
+        <ul>
+            <li>Involved in product development, issue fixing for various modules using Oracle PL/SQL, Java, Spring framework and ExtJs framework technologies.</li>
+            <li>Development of new enhancements (Design, Development, Support)</li>
+            <li>Handled production issues along with analysis of cause and solution for the same.</li>
+            <li>Design, development, and defect fixing using agile approach.</li>
+            <li>Identified and resolved setup-related issues.</li>
+            <li>Analyzed system to find the root cause and provided root cause analysis. Fixed using change management.</li>
+        </ul>
+        <p>07/2012 – 08/2016, SOFTWARE DEVELOPER</p>
+        <ul>
+            <li>Fixed product issues and provided production support to clients.</li>
+            <li>Identified and resolved setup-related issues.</li>
+            <li>Successfully completed onsite support and implementation work</li>
+            <li>Analyzed system to find the root cause and provided root cause analysis. Fixed using change management.</li>
+            <li>Involved in Oracle PL/SQL backend development and responsible for backend release deployment.</li>
+            <li>Involved in Oracle report issue fixing.</li>
+        </ul>
+        <h3>Cognizant Technology Solutions</h3>
+        <p>12/2009 – 07/2012, PROGRAMMER ANALYST</p>
+        <ul>
+            <li>Projects included an insurance project which handled all insurance activities, and a project for a telecom provider which involved a system used to handle all services required by T-system to cater to its clients.</li>
+            <li>Involved in development of PL/SQL programming elements.</li>
+            <li>Prepared design from given requirement specifications.</li>
+            <li>Involved in fixing of defects and in code review.</li>
+            <li>Involved in Oracle PL/SQL backend development and responsible for backend release deployment.</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Engineering in Information Technology, 2009</p>
+    </section>
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Marathi</li>
+        </ul>
+    </section>
+    <section id="personal-details">
+        <h2>Personal Details</h2>
+        <p>Address: Pune</p>
+        <p>Mobile: +919975762892</p>
+        <p>Email: yogeshkhot2007@gmail.com</p>
+        <p>Marital Status: Married</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Yogesh Khot</p>
+    </footer>
 </body>
 </html>
